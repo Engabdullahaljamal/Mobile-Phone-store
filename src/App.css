@@ -1,38 +1,279 @@
-.App {
-  text-align: center;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  overflow-x: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+button:hover,
+a:hover {
+  transition: .5s;
+}
+
+.a_style {
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+
+}
+
+hr {
+  padding: 0px;
+  margin: 0px;
+
+}
+
+.a_style:hover {
+  color: #ec0027;
+}
+
+p {
+  color: #8a8a8a;
+}
+
+
+
+.a_font {
+  font-size: 20px;
+  width: max-content;
+}
+
+.red_back {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: black;
+  top: 50%;
+  border: 1px solid white;
+  margin: 0px 10px;
+}
+
+.red_back:hover {
+  border-color: #ec0027;
+  background-color: #ec0027;
+}
+
+@media screen and (max-width:1100px) {
+
+  .first_content h1,
+  .sec_content h1,
+  .third_content h1 {
+    font-size: 40px !important;
+
+
+  }
+
+  .per_img {
+    width: 100vw !important;
+  }
+
+  .line_type_one,
+  .line_type_two {
+    margin-left: 110px !important;
+  }
+
+  .line_type_two {
+    height: 130px !important;
+    bottom: 220px !important;
+  }
+
+  .why_photo {
+    position: absolute !important;
+    width: 100vw !important;
+    height: 170vh !important;
+  }
+
+  #why {
+    width: 100vw !important;
+    height: 170vh !important;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+@media screen and (max-width:800px) {
 
-.App-link {
-  color: #61dafb;
-}
+  .first_content h1,
+  .sec_content h1,
+  .third_content h1 {
+    font-size: 25px !important;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
   }
-  to {
-    transform: rotate(360deg);
+
+  .first_content h2,
+  .sec_content h2,
+  .third_content h2 {
+    font-size: 20px !important;
+  }
+
+  .first_content button,
+  .sec_content button,
+  .third_content button {
+    width: 100px !important;
+    height: 30px !important;
+    font-size: 10px !important;
+    border-width: 1px !important;
+    position: absolute !important;
+    left: 90px !important;
+
+
+  }
+
+  .first_content,
+  .third_content {
+    top: 80px !important;
+  }
+
+  #free_shopping_sec {
+    gap: 50px !important;
+  }
+
+  .essential_container {
+    flex-wrap: wrap !important;
+  }
+
+  .performance_sec_con {
+    flex-direction: column !important
+  }
+
+  .line_type_one,
+  .line_type_two {
+    display: none !important;
+  }
+
+  #footer_sec input {
+    width: 290px !important;
+  }
+
+  #footer_sec .inp {
+    width: 350px !important;
+  }
+
+  #footer_sec .footer_container {
+    flex-direction: column !important;
+    gap: 50px !important;
+  }
+
+  #footer_sec span {
+    display: none !important;
+  }
+
+  #footer_sec .why_photo {
+    height: 130vh !important;
+  }
+
+}
+
+
+@media screen and (max-width:590px) {
+
+  .first_content,
+  .sec_content,
+  .third_content {
+    width: 300px !important;
+  }
+
+  .first_content button,
+  .sec_content button,
+  .third_content button {
+    left: -58px !important;
+
+  }
+
+  .first_content,
+  .third_content {
+    top: 100px !important;
+  }
+
+  .sec_content {
+    top: 110px !important;
+  }
+
+  .first_content h1,
+  .sec_content h1,
+  .third_content h1 {
+    font-size: 15px !important;
+
+  }
+
+  .first_content h2,
+  .sec_content h2,
+  .third_content h2 {
+    font-size: 10px !important;
+  }
+
+  .carousel-item img {
+    height: 40vh !important;
+    margin-top: 30px !important
+  }
+
+  .accordion {
+    width: 300px !important;
+  }
+
+  .why_photo {
+    height: 190vh !important;
+  }
+
+  #why {
+    height: 190vh !important;
+  }
+
+  .why_mob_img {
+    width: 350px !important;
+    height: 375px !important;
+  }
+
+  .quality_phone_photo {
+    width: 350px !important;
+  }
+
+  .qual_img_one,
+  .qual_img_two {
+    height: 50px !important;
+  }
+
+  .red_back {
+    height: 25px !important;
+    width: 25px !important;
+
+  }
+
+
+}
+
+
+@media screen and (max-width:501px) {
+  #offcanvasNavbar {
+    width: 300px !important;
+  }
+
+
+  .sec_part {
+    margin: 0 auto !important;
+    margin-top: 5px !important;
+    padding-left: 0px !important;
+
+  }
+
+  .navbar-brand {
+    margin: 0 auto !important
+  }
+
+  .performance_sec_con p {
+    font-size: 12px !important;
+  }
+
+  #footer_sec .inp {
+    width: 330px !important;
+  }
+
+  #footer_sec button {
+
+    margin-right: 5px !important;
   }
 }

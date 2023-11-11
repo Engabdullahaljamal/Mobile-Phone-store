@@ -1,0 +1,22 @@
+.login_con {
+    padding: 20vh 0px;
+
+}
+
+.login_con .inp {
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    gap: 35px;
+    margin: 0 auto;
+}
+
+.login_con .inp input {
+    border-radius: 30px;
+    padding: 10px;
+}
+
+
+.login_con .inp .footer_button {
+    margin: auto;
+}

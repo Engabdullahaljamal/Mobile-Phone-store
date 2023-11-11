@@ -1,0 +1,86 @@
+#footer_sec {
+    width: 100vw;
+    height: max-content;
+
+}
+
+#footer_sec p {
+    color: white;
+    margin: 30px auto;
+}
+
+#footer_sec .parent {
+    height: 80vh;
+}
+
+#footer_sec .chield {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+#footer_sec input {
+    width: 390px;
+    height: 50px;
+    border-radius: 30px;
+    padding-left: 25px;
+    font-size: 18px;
+    border: none;
+}
+
+
+
+#footer_sec .inp {
+    width: 450px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: white;
+    display: flex;
+    gap: 0px;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+
+.footer_button {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-left: 10px;
+    font-size: 30px;
+
+    /* top: 34px;
+    right: 420px; */
+}
+
+.footer_button:hover {
+    background-color: #ec0027;
+}
+
+.footer_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer_container a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.footer_container a:hover {
+    color: #ec0027;
+}
+
+#footer_sec .why_photo {
+    height: 80vh;
+}

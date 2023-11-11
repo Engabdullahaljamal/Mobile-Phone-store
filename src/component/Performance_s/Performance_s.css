@@ -1,0 +1,43 @@
+#performance_sec {
+    padding: 50px 0px;
+}
+
+#performance_sec p {
+    color: black;
+}
+
+
+.performance_sec_con {
+    display: flex;
+    gap: 50px;
+    position: relative;
+    margin-bottom: 50px;
+
+}
+
+.line_type_one,
+.line_type_two {
+    width: 1px;
+    height: 170px;
+    background-color: #000;
+    position: absolute;
+    bottom: 185px;
+    margin-left: 142px;
+
+
+
+}
+
+.line_type_one {
+    height: 100px;
+    bottom: 255px;
+}
+
+.performance_sec_content {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+
+}

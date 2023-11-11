@@ -1,0 +1,11 @@
+#new_arrivals {
+    padding: 60px 10px;
+}
+
+.new_arrivals_con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}

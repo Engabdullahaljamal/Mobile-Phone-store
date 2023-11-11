@@ -1,0 +1,30 @@
+#free_shopping_sec {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    padding: 20px 20px;
+    padding-top: 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #f9f9f9;
+}
+
+.shopping_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    width: 300px;
+
+}
+
+.shopping_content img {
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.shopping_content p {
+    color: #8a8a8a;
+}

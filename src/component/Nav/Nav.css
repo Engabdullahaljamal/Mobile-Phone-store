@@ -1,0 +1,52 @@
+nav {
+    position: fixed;
+    z-index: 100;
+}
+
+.sec_part {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 20px;
+    padding-top: 10px;
+
+
+}
+
+
+.sec_part a {
+    text-decoration: none;
+    color: black;
+
+
+}
+
+.navbar-brand {
+    padding: 0px 6px;
+    color: purple;
+    border: 4px solid #1e148b;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.navbar-brand:hover {
+    color: darkorchid;
+}
+
+.navbar-toggler {
+    border: none;
+    font-size: 14px;
+
+}
+
+.offcanvas {
+    margin-top: 72px;
+
+}
+
+.flag_img {
+    width: 30px;
+    height: 15px;
+    padding-left: 10px;
+}

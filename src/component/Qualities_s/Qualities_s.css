@@ -1,0 +1,38 @@
+#Qualities {
+    padding: 50px 25px;
+}
+
+.qualities_container {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.qualities_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-direction: column;
+}
+
+.qualities_content p {
+    width: 250px;
+}
+
+.qual_img_one {
+    height: 70px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.qual_img_two {
+    height: 70px;
+    margin-right: 10px;
+    margin-top: 20px;
+
+}

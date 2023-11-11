@@ -1,0 +1,38 @@
+.search_con {
+    padding: 30vh 0px;
+    height: 90vh;
+
+}
+
+.search_con .inp {
+    display: flex;
+    width: max-content;
+    gap: 10px;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+
+.search_con .inp input {
+    margin-top: 20px;
+    border-radius: 30px;
+    padding: 10px;
+    width: 340px;
+
+}
+
+.search_con .inp .footer_button {
+    margin: auto;
+    margin-top: 20px;
+    height: 50px;
+    width: 50px;
+}
+
+@media screen and (max-width:440px) {
+    .search_con .inp {
+        gap: 5px;
+    }
+
+    .search_con .inp input {
+        width: 280px;
+    }
+}

@@ -1,0 +1,26 @@
+#essential_sec {
+    padding: 50px 25px;
+}
+
+
+.essential_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.essential_content {
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.essential_content img {
+    margin-bottom: 50px;
+}

@@ -1,0 +1,69 @@
+#carouselExampleFade {
+    margin-top: 72px;
+    width: 100vw;
+}
+
+.carousel_img {
+    position: relative;
+    object-fit: cover;
+}
+
+.first_content,
+.sec_content,
+.third_content {
+
+
+    position: absolute;
+    /* background-color: rgb(0, 0, 0, 0.2); */
+    color: white;
+    top: 0;
+    right: 33%;
+    transform: translate(50%, 50%);
+    padding: 20px;
+    border-radius: 4px;
+    width: 600px;
+}
+
+.first_content h1,
+.sec_content h1,
+.third_content h1 {
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+.first_content button,
+.sec_content button,
+.third_content button {
+    font-size: 20px;
+    color: white;
+    background-color: #000;
+    border: 3px solid white;
+    width: 220px;
+    height: 60px;
+    border-radius: 50px;
+    margin-left: 160px;
+    margin-top: 20px;
+}
+
+.sec_content {
+    bottom: 70%;
+    right: 70%;
+    color: #000;
+}
+
+.sec_content button {
+    color: #000;
+    background-color: white;
+    border: 3px solid black;
+}
+
+.first_content button:hover,
+.sec_content button:hover,
+.third_content button:hover {
+    background-color: #ec0027;
+    border-color: #ec0027;
+}
+
+.sec_content button:hover {
+    color: white;
+}
