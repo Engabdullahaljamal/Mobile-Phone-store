@@ -252,6 +252,9 @@ p {
     width: 300px !important;
   }
 
+  .navbar-brand {
+    font-size: 16px !important;
+  }
 
   .sec_part {
     margin: 0 auto !important;
