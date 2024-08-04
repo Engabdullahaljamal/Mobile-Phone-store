@@ -42,8 +42,13 @@
     gap: 0px;
     justify-content: flex-start;
     align-items: center;
-
+    outline: 2px solid #ec0027;
 }
+
+#footer_sec .inp input[type=text] {
+    outline: none;
+}
+
 
 
 .footer_button {
