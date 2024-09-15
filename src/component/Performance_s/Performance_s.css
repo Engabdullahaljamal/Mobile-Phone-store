@@ -5,7 +5,9 @@
 #performance_sec p {
     color: black;
 }
-
+.per_img{
+    width: 100%;
+}
 
 .performance_sec_con {
     display: flex;

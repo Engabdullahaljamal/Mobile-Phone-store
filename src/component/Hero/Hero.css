@@ -6,6 +6,7 @@
 .carousel_img {
     position: relative;
     object-fit: cover;
+    width: 100vw !important;
 }
 
 .first_content,
