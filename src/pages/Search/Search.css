@@ -17,6 +17,8 @@
     border-radius: 30px;
     padding: 10px;
     width: 340px;
+    border: none;
+    border: 1px solid black;
 
 }
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Qualities_s.css"
-import qualitie_img from "./../../img/qualitie_img.webp"
+import qualitie_img from "./../../img/iphon_16_img.jpeg"
 import qualities_img_1 from "./../../img/qualities_img_1.png"
 import qualities_img_2 from "./../../img/qualities_img_2.webp"
 import qualities_img_3 from "./../../img/qualities_img_3.webp"

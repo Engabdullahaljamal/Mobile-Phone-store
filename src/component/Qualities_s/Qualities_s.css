@@ -1,5 +1,6 @@
 #Qualities {
     padding: 50px 25px;
+    padding-bottom: 120px;
 }
 
 .qualities_container {
@@ -35,4 +36,8 @@
     margin-right: 10px;
     margin-top: 20px;
 
+}
+
+.quality_phone_photo {
+    max-width: 425px;
 }

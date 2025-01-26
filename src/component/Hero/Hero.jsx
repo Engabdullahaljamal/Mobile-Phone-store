@@ -1,8 +1,8 @@
 import React from 'react'
 import "./Hero.css"
-import sliderImage1 from "./../../img/phono-slider-1.webp"
-import sliderImage2 from "./../../img/phono-slider-2.webp"
-import sliderImage3 from "./../../img/phono-slider-3.webp"
+import sliderImage1 from "./../../img/slider_1_img.png"
+import sliderImage2 from "./../../img/slider_2_img.webp"
+import sliderImage3 from "./../../img/slider_3_img.jpg"
 
 function Hero() {
     return (

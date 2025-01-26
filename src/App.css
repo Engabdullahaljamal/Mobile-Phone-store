@@ -86,12 +86,19 @@ p {
   .why_photo {
     position: absolute !important;
     width: 100vw !important;
-    height: 170vh !important;
+
   }
+
+
 
   #why {
     width: 100vw !important;
     height: 170vh !important;
+  }
+
+  #why .why_photo {
+    width: 100vw !important;
+    height: 155vh !important;
   }
 }
 
@@ -100,8 +107,12 @@ p {
   .first_content h1,
   .sec_content h1,
   .third_content h1 {
-    font-size: 25px !important;
+    font-size: 23px !important;
 
+  }
+
+  .sec_content {
+    left: 25% !important;
   }
 
   .first_content h2,
@@ -113,20 +124,15 @@ p {
   .first_content button,
   .sec_content button,
   .third_content button {
-    width: 100px !important;
+    padding: 10px !important;
+    padding-top: 5px !important;
     height: 30px !important;
-    font-size: 10px !important;
+    font-size: 12px !important;
     border-width: 1px !important;
     position: absolute !important;
-    left: 90px !important;
-
-
+    left: 40px;
   }
 
-  .first_content,
-  .third_content {
-    top: 80px !important;
-  }
 
   #free_shopping_sec {
     gap: 50px !important;
@@ -166,44 +172,49 @@ p {
     height: 130vh !important;
   }
 
+  #footer_sec .why_photo {
+    height: 115% !important;
+
+  }
 }
 
 
 @media screen and (max-width:590px) {
 
-  .first_content,
-  .sec_content,
-  .third_content {
-    width: 300px !important;
+
+  .sec_content {
+    left: 50% !important;
   }
 
   .first_content button,
   .sec_content button,
   .third_content button {
-    left: -58px !important;
+    padding-top: 10px !important;
 
   }
 
-  .first_content,
-  .third_content {
-    top: 100px !important;
-  }
-
-  .sec_content {
-    top: 110px !important;
-  }
 
   .first_content h1,
   .sec_content h1,
   .third_content h1 {
-    font-size: 15px !important;
+    font-size: 24px !important;
 
   }
 
   .first_content h2,
   .sec_content h2,
   .third_content h2 {
-    font-size: 10px !important;
+    font-size: 20px !important;
+  }
+
+  .first_content button.text-center,
+  .sec_content button.text-center,
+  .third_content button.text-center {
+    width: max-content !important;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .carousel-item img {
@@ -243,6 +254,11 @@ p {
 
   }
 
+  #carouselExampleFade {
+    margin-top: 25px !important;
+    width: 100vw;
+  }
+
 
 }
 
@@ -278,5 +294,19 @@ p {
   #footer_sec button {
 
     margin-right: 5px !important;
+  }
+
+  .first_content,
+  .sec_content,
+  .third_content {}
+
+  .sec_content {
+    top: 60% !important;
+    left: 50% !important;
+  }
+
+  #carouselExampleFade {
+    margin-top: 20px !important;
+    width: 100vw;
   }
 }

@@ -1,9 +1,11 @@
 #essential_sec {
-    padding: 50px 25px;
+    padding: 100px 25px;
+    padding-top: 170px;
 }
 
 
 .essential_container {
+    padding-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;

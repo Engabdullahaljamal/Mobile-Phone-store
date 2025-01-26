@@ -13,6 +13,11 @@
     height: 80vh;
 }
 
+#footer_sec .parent img {
+    height: 100%;
+    object-fit: cover;
+}
+
 #footer_sec .chield {
     display: flex;
     justify-content: center;
@@ -84,8 +89,4 @@
 
 .footer_container a:hover {
     color: #ec0027;
-}
-
-#footer_sec .why_photo {
-    height: 80vh;
 }
