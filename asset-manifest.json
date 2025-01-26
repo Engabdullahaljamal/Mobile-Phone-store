@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Task6_2/static/css/main.d114f714.css",
-    "main.js": "/Task6_2/static/js/main.2235c29c.js",
+    "main.css": "/Task6_2/static/css/main.d240d2a7.css",
+    "main.js": "/Task6_2/static/js/main.183ef8e4.js",
     "static/js/787.a526e8cd.chunk.js": "/Task6_2/static/js/787.a526e8cd.chunk.js",
-    "static/media/phono-slider-1.webp": "/Task6_2/static/media/phono-slider-1.c048e9497d3ecd4b85fd.webp",
-    "static/media/phono-slider-3.webp": "/Task6_2/static/media/phono-slider-3.9c29a67adabb61e0a55e.webp",
+    "static/media/slider_1_img.png": "/Task6_2/static/media/slider_1_img.ddc3634c355712474fba.png",
+    "static/media/slider_3_img.jpg": "/Task6_2/static/media/slider_3_img.5c768da9787786e781c6.jpg",
+    "static/media/slider_2_img.webp": "/Task6_2/static/media/slider_2_img.8343aa31141c463b6521.webp",
     "static/media/us_flag.png": "/Task6_2/static/media/us_flag.37adbcffedcee8753625.png",
-    "static/media/phono-slider-2.webp": "/Task6_2/static/media/phono-slider-2.79898d512f07a5b97432.webp",
-    "static/media/qualitie_img.webp": "/Task6_2/static/media/qualitie_img.8e0024e1cf15a68752e1.webp",
     "static/media/why_sec_img.webp": "/Task6_2/static/media/why_sec_img.d8baef090db3931e73da.webp",
+    "static/media/iphon_16_img.jpeg": "/Task6_2/static/media/iphon_16_img.166f75caa36a639e1941.jpeg",
     "static/media/syria_flag.jpeg": "/Task6_2/static/media/syria_flag.3a5045ad6b386504e825.jpeg",
     "static/media/performance_sec_img.webp": "/Task6_2/static/media/performance_sec_img.1a0331438c7cea3ba3e3.webp",
     "static/media/why_sec_back_img1.webp": "/Task6_2/static/media/why_sec_back_img1.aa2616cafed1852dd7b6.webp",
@@ -27,12 +27,12 @@
     "static/media/per_sec_img2.webp": "/Task6_2/static/media/per_sec_img2.774119208cf2bce49ca0.webp",
     "static/media/qualities_img_3.webp": "/Task6_2/static/media/qualities_img_3.1f16c75d9b6e52b18836.webp",
     "index.html": "/Task6_2/index.html",
-    "main.d114f714.css.map": "/Task6_2/static/css/main.d114f714.css.map",
-    "main.2235c29c.js.map": "/Task6_2/static/js/main.2235c29c.js.map",
+    "main.d240d2a7.css.map": "/Task6_2/static/css/main.d240d2a7.css.map",
+    "main.183ef8e4.js.map": "/Task6_2/static/js/main.183ef8e4.js.map",
     "787.a526e8cd.chunk.js.map": "/Task6_2/static/js/787.a526e8cd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d114f714.css",
-    "static/js/main.2235c29c.js"
+    "static/css/main.d240d2a7.css",
+    "static/js/main.183ef8e4.js"
   ]
 }
