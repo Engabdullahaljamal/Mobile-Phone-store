@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Mobile-Phone-store/static/css/main.d240d2a7.css",
-    "main.js": "/Mobile-Phone-store/static/js/main.2eaf8067.js",
+    "main.css": "/Mobile-Phone-store/static/css/main.bb6d968a.css",
+    "main.js": "/Mobile-Phone-store/static/js/main.6d667c01.js",
     "static/js/787.a526e8cd.chunk.js": "/Mobile-Phone-store/static/js/787.a526e8cd.chunk.js",
     "static/media/slider_1_img.png": "/Mobile-Phone-store/static/media/slider_1_img.ddc3634c355712474fba.png",
     "static/media/slider_3_img.jpg": "/Mobile-Phone-store/static/media/slider_3_img.5c768da9787786e781c6.jpg",
@@ -27,12 +27,12 @@
     "static/media/per_sec_img2.webp": "/Mobile-Phone-store/static/media/per_sec_img2.774119208cf2bce49ca0.webp",
     "static/media/qualities_img_3.webp": "/Mobile-Phone-store/static/media/qualities_img_3.1f16c75d9b6e52b18836.webp",
     "index.html": "/Mobile-Phone-store/index.html",
-    "main.d240d2a7.css.map": "/Mobile-Phone-store/static/css/main.d240d2a7.css.map",
-    "main.2eaf8067.js.map": "/Mobile-Phone-store/static/js/main.2eaf8067.js.map",
+    "main.bb6d968a.css.map": "/Mobile-Phone-store/static/css/main.bb6d968a.css.map",
+    "main.6d667c01.js.map": "/Mobile-Phone-store/static/js/main.6d667c01.js.map",
     "787.a526e8cd.chunk.js.map": "/Mobile-Phone-store/static/js/787.a526e8cd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d240d2a7.css",
-    "static/js/main.2eaf8067.js"
+    "static/css/main.bb6d968a.css",
+    "static/js/main.6d667c01.js"
   ]
 }
