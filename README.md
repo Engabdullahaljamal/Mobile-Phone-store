@@ -1,6 +1,7 @@
 # 📱 Mobile Phone Store
 
-A responsive and multi-page mobile phone e-commerce website built using **React.js**, **Webpack**, **Pure CSS**, and **Bootstrap**. The project features clean component structure, modern UI, and smooth page transitions.
+A responsive and multi-page mobile phone e-commerce website built using **React.js**, **Webpack**, **Pure CSS**, and **Bootstrap**.  
+The project features clean components, dynamic product listing via external API, and modern UI design.
 
 ## 🔗 Live Demo
 
@@ -9,10 +10,13 @@ A responsive and multi-page mobile phone e-commerce website built using **React.
 ## 🚀 Features
 
 - 🛒 Multi-page layout (Home, Login, Shopping, Search)
-- 📱 Responsive design with Bootstrap 5
-- 🎨 Styled using pure CSS and Bootstrap icons
-- ⚛️ Built with React components and Webpack bundler
-- 📂 Clean file structure for easy scalability
+- 🌐 Fetches real product data from [DummyJSON API](https://dummyjson.com/products)
+
+- 🛍️ Products displayed in both homepage section and Go_Shopping page
+- 📱 Responsive design using Bootstrap 5
+- 🎨 Styled with pure CSS and Bootstrap Icons
+- ⚛️ Component-based structure using React
+- 📦 Built and bundled with Webpack
 
 ## 🛠 Tech Stack
 
@@ -20,16 +24,17 @@ A responsive and multi-page mobile phone e-commerce website built using **React.
 - Webpack  
 - CSS3 (Pure)  
 - Bootstrap 5  
-- Font Awesome / Bootstrap Icons
+- Font Awesome & Bootstrap Icons  
+- Fetch API / Axios (for external data)
 
 ## 📁 Project Structure
 
 - `public/`: Static assets and `index.html`  
-- `src/component/`: UI components (Hero, Footer, Nav, etc.)  
-- `src/pages/`: Main pages (Home, Go Shopping, Login, Search)  
-- `src/img/`: Images and product visuals  
+- `src/component/`: Reusable components (Nav, Hero, Footer, etc.)  
+- `src/pages/`: Pages (Home, Go_Shopping, Login, Search)  
+- `src/img/`: Product and UI images  
 - `App.css`: Global styling  
-- `index.js`: App entry point  
+- `index.js`: Entry point
 
 ## ⚙️ Installation
 
@@ -38,4 +43,3 @@ git clone https://github.com/your-username/Mobile-Phone-store.git
 cd Mobile-Phone-store
 npm install
 npm start
-
